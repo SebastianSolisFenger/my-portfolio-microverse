@@ -14,7 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-/* HEADER */
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -22,7 +21,7 @@ body {
   height: 70px;
   position: relative;
   padding: 0 35px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .nav-bar .header-logo .header-logo-link {
@@ -59,7 +58,6 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  right: 24px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
   background-color: #f7f7f9;
@@ -76,7 +74,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   transform: scale(1);
-  color: #ffffff;
+  color: #fff;
   box-shadow: 5px 10px 10px rgba(44, 34, 34, 0.445);
 }
 
