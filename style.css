@@ -85,10 +85,6 @@ body {
   height: 24px;
 }
 
-.headline {
-  position: relative;
-}
-
 .intro {
   margin-top: 12px;
   display: flex;
