@@ -17,8 +17,8 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  padding: 5px 10px;
   position: relative;
-  padding: 0 35px;
   background-color: #fff;
 }
 
@@ -29,7 +29,7 @@ body {
   height: 45px;
   top: calc(50% - 40px / 2);
   left: 12px;
-  padding: 10px 12px 10px 12px;
+  padding: 8px 5px;
   font-weight: bold;
   margin-left: 24px;
   border-radius: 80%;
@@ -39,10 +39,10 @@ body {
   width: 200px;
   height: 20px;
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 20px;
-  color: rgb(96, 112, 255);
+  color: #6070ff;
 }
 
 .nav-bar .header-logo .header-logo-link:hover {
@@ -51,34 +51,35 @@ body {
   cursor: pointer;
 }
 
-.nav-bar .nav-button {
-  padding: 10px 10px 10px 10px;
+.nav-hamburger {
+  padding: 2px 2px;
   position: absolute;
-  width: 40px;
-  height: 40px;
-  top: calc(50% - 40px / 2);
+  width: 30px;
+  height: 24px;
+  top: calc(50% - 30px / 2);
   border-radius: 8px;
-  background-color: #f7f7f9;
-  right: 24px;
+  right: 35px;
   border-style: none;
-  margin-right: 22px;
+  margin-right: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.nav-bar .nav-button:hover {
-  font-size: 20px;
-  font-weight: bold;
+.nav-hamburger .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #6070ff;
+}
+
+.nav-hamburger :hover {
   cursor: pointer;
-  transform: scale(1);
-  color: #fff;
-  box-shadow: 5px 10px 10px rgba(44, 34, 34, 0.445);
-}
-
-.nav-bar .nav-button img {
-  width: 24px;
-  height: 24px;
 }
 
 .intro {
@@ -92,9 +93,9 @@ body {
 .intro h1 {
   width: 327px;
   height: 150px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "sans-serif";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700, bold;
   font-size: 40px;
   line-height: 52px;
   display: flex;
@@ -112,7 +113,7 @@ body {
   top: 276px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #344563;
@@ -126,7 +127,7 @@ body {
   height: 24px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   color: rgb(96, 112, 255);
@@ -136,7 +137,12 @@ body {
   text-decoration: none;
 }
 
-.connect-div:hover {
+.connect-a h3 {
+  font-weight: 500;
+  color: rgb(96, 112, 255);
+}
+
+.connect-a :hover {
   background-color: rebeccapurple;
   color: wheat;
 }
@@ -144,16 +150,20 @@ body {
 .social-icons {
   margin-bottom: 106px;
   margin-top: 25px;
+  text-decoration: none;
 }
 
 .social-icons ul {
   display: flex;
   list-style: none;
+  text-decoration: none;
 }
 
 .social-icons ul li i {
   margin-right: 20px;
   font-size: 30px;
+  text-decoration: none;
+  color: #505f79;
 }
 
 .intro .social-icons ul li:hover {
