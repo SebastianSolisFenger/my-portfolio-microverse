@@ -78,7 +78,7 @@ body {
   background: #6070ff;
 }
 
-.nav-hamburger :hover {
+.hamburger-lines:hover {
   cursor: pointer;
 }
 
