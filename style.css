@@ -219,8 +219,6 @@ body {
   }
 }
 
-/* ///// */
-
 .container {
   width: 90%;
   margin: 60px auto;
@@ -264,10 +262,6 @@ body {
   max-width: 95%;
   height: 300px;
 }
-
-/* .testimonials .grid-box:hover img {
-  transform: scale(1.2);
-} */
 
 .content-box-works {
   display: flex;
@@ -331,7 +325,7 @@ body {
 .ul-buttons-lg {
   display: flex;
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .li-buttons-lg {
@@ -353,6 +347,7 @@ body {
   color: #6070ff;
   background: #ebebff;
   border-radius: 8px;
+  border: none;
 }
 
 .li-buttons-lg .buttons-lg:hover {
@@ -383,6 +378,20 @@ body {
 
 .see-proj-btn-itself:hover {
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  background: #6070ff;
+  box-shadow: 5px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.see-proj-btn-itself:active {
+  background: #2230d2;
+  transition: 0.5s;
 }
 
 .para-testi {
@@ -412,9 +421,6 @@ body {
   color: var(--Pink);
 }
 
-/* --- WORKS- */
-
-/* ABOUT MYSELF */
 .about-myself {
   height: 1263px;
   border-top-right-radius: 80px;
@@ -480,7 +486,6 @@ body {
 }
 
 .submenuItems {
-  /* display: none; */
   background: #fff;
   list-style: none;
   padding: 12px;
@@ -494,15 +499,6 @@ body {
   margin-bottom: 14px;
   position: relative;
 }
-
-/* li .no-margin-bottom {
-  margin-bottom: 0;
-}
-
-a:hover {
-  background-color: #cddc39;
-  color: #fff;
-} */
 
 .about-titles {
   position: absolute;
