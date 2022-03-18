@@ -8,15 +8,14 @@ This is my portfolio.
 
 - Major languages: Css & Html.
 
-
 ## Author
 
 👤 **Sebastian**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter:[@twitterhandle](https://twitter.com/twitterhandle)
 
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
