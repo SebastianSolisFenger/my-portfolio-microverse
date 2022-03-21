@@ -324,12 +324,12 @@ body {
 }
 
 .ul-buttons-lg {
-  display: flex;
   list-style: none;
   margin-bottom: 15px;
 }
 
 .li-buttons-lg {
+  float: left;
   margin-right: 10px;
   width: fit-content;
   height: 24px;
