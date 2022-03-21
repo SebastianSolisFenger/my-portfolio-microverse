@@ -326,6 +326,7 @@ body {
 .ul-buttons-lg {
   list-style: none;
   margin-bottom: 15px;
+  /* display: flex; */
 }
 
 .li-buttons-lg {
@@ -397,7 +398,7 @@ body {
 
 .para-testi {
   margin-bottom: 15px;
-  width: 295px;
+  width: 260px;
   height: 76px;
   font-family: "Poppins";
   font-style: normal;
