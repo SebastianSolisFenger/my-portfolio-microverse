@@ -588,6 +588,7 @@ body {
   align-items: center;
   color: #010203;
   padding: 15px 16px;
+  border: none;
 }
 
 #message {
@@ -601,6 +602,7 @@ body {
   line-height: 24px;
   color: #b3bac5;
   padding: 15px 16px;
+  border: none;
 }
 
 .contact-btn {
