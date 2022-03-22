@@ -580,14 +580,19 @@ body {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 17px;
   line-height: 20px;
+  /* or 118% */
+
   display: flex;
   align-items: center;
-  color: #172b4d;
+
+  /* Neutral/N800 */
+
+  color: #010203;
 }
 
 #message {
@@ -726,5 +731,9 @@ body {
 
   .contact-btn {
     align-self: flex-start;
+  }
+
+  #para-contact-me {
+    margin-bottom: 57px;
   }
 }
