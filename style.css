@@ -175,7 +175,8 @@ body {
 }
 
 .headline {
-  background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg);
+  /* background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg); */
+  background-image: url(./styling-features-pictures/desktop-backg.svg);
   background-color: #fff;
   background-size: cover;
   background-position: center;
@@ -586,6 +587,7 @@ body {
   display: flex;
   align-items: center;
   color: #010203;
+  padding-left: 15px;
 }
 
 #message {
@@ -598,6 +600,8 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+  padding-top: 10px;
+  padding-left: 15px;
 }
 
 .contact-btn {
@@ -651,6 +655,7 @@ body {
     align-items: center;
     background-position: initial;
     background-size: cover;
+    background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg);
   }
 
   .intro h1 {
