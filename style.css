@@ -95,8 +95,12 @@ body {
   width: 927px;
 }
 
+/* .first-intro {
+  justify-content: flex-end;
+} */
+
 .intro h1 {
-  width: 327px;
+  width: 927px;
   height: 150px;
   font-family: "Poppins", "sans-serif";
   font-style: normal;
@@ -121,6 +125,14 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #344563;
+}
+
+.intro .intro-p-firstOne {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  width: 920px;
+  /* align-self: center; */
 }
 
 .connect-div {
@@ -182,13 +194,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-origin: content-box;
-  border-bottom-left-radius: 35%;
+  border-bottom-left-radius: 25%;
   margin-top: 50px;
   width: 100%;
   height: 100%;
   z-index: -1;
   display: flex;
   justify-content: center;
+}
+
+.first-headline {
+  height: 820px;
+  /* justify-content: cen; */
 }
 
 .container {
@@ -222,6 +239,16 @@ body {
   height: 500px;
 }
 
+.hand-cursor {
+  position: absolute;
+  width: 90px;
+  height: 87px;
+  right: 76px;
+  top: 323.05px;
+  background: url(./styling-features-pictures/hand-cursor\ 1.png);
+  transform: rotate(-10deg);
+}
+
 .grid-box img {
   align-self: center;
   height: 448px;
@@ -243,7 +270,7 @@ body {
   width: 50%;
   align-items: flex-start;
   text-align: center;
-  padding: 25px;
+  padding-left: 25px;
 }
 
 .title-grid-box {
@@ -261,7 +288,7 @@ body {
 .canopy-row h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 16px;
   color: #344563;
@@ -269,7 +296,7 @@ body {
 
 .canopy-row {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 28px;
 }
 
 .canopy-row ul {
@@ -282,7 +309,7 @@ body {
   margin-right: 8px;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
@@ -370,8 +397,16 @@ body {
   transition: 0.5s;
 }
 
+#active-one {
+  background: #4053fc;
+  box-shadow: 2px 16px 26px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
 .para-testi {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  width: 496px;
   height: 76px;
   font-family: "Poppins";
   font-style: normal;
