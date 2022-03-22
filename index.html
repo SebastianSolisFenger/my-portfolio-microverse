@@ -318,5 +318,61 @@
         </ul>
       </div>
     </section>
+
+    <footer class="contact-form headline">
+      <form
+        id="fs-frm"
+        name="simple-contact-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/xwkyqzan"
+        method="POST"
+        class="intro conctact-me-form"
+      >
+        <fieldset id="conctact-me-inputs">
+          <div class="title-para-contact">
+            <label class="name-contact-title" for="full-name">Contact me</label>
+            <p id="para-contact-me">
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it
+            </p>
+          </div>
+
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="Sebastian Solis Fenger"
+            required=""
+            maxlength="30"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="solisfenger77@gmail.com"
+            required=""
+          />
+          <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="Write your message here"
+            required=""
+            maxlength="500"
+          ></textarea>
+
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Contact Form Submission"
+          />
+          <button class="contact-btn" type="submit" value="Submit">
+            Get In Touch
+          </button>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>

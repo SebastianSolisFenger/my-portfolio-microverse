@@ -5,11 +5,12 @@
 }
 
 body {
-  background: #e5e5e5;
   position: absolute;
+  min-width: 470px;
   width: 100vw;
   height: 718px;
   overflow-x: hidden;
+  background: #f7f7f9;
 }
 
 .nav-bar {
@@ -86,9 +87,12 @@ body {
 
 .intro {
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
   margin-left: 24px;
   margin-right: 24px;
+  width: 927px;
 }
 
 .intro h1 {
@@ -108,7 +112,6 @@ body {
 .intro p {
   margin-top: 15px;
   position: static;
-  width: 327px;
   height: 146px;
   left: 24px;
   top: 276px;
@@ -172,7 +175,8 @@ body {
 }
 
 .headline {
-  background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg);
+  /* background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg); */
+  background-image: url(./styling-features-pictures/desktop-backg.svg);
   background-color: #fff;
   background-size: cover;
   background-position: center;
@@ -183,57 +187,16 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-}
-
-@media only screen and (min-width: 550px) {
-  body {
-    height: 100vh;
-    min-height: 500px;
-    max-height: 600px;
-  }
-
-  .intro {
-    flex-direction: column;
-    width: 80%;
-  }
-
-  .headline {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-position: initial;
-    background-size: cover;
-  }
-
-  .intro h1 {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-  .intro p {
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-  }
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 60px auto;
-}
-
-.grid-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-  grid-gap: 50px;
-}
-
-.grid-box {
-  padding: 15px;
-  height: 672px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* TESTIMONIALS */
@@ -244,31 +207,35 @@ body {
 }
 
 .works .grid-wrapper {
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: 1fr;
 }
 
-.works .grid-box {
+.grid-box {
   background-color: white;
+  max-width: 1156px;
+  margin-bottom: 100px;
   display: flex;
-  flex-direction: column;
   border-radius: 15px;
   margin-top: 18px;
   box-shadow: 5px 5px 30px rgba(56, 42, 42, 0.445);
   position: relative;
+  padding: 25px;
 }
 
-.works .grid-box img {
-  margin-top: 10px;
+.grid-box img {
   align-self: center;
-  max-width: 95%;
-  height: 300px;
+  height: 448px;
+  width: 50%;
 }
 
 .content-box-works {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
   align-items: flex-start;
   text-align: center;
+  padding: 25px;
 }
 
 .title-grid-box {
@@ -326,7 +293,7 @@ body {
 .ul-buttons-lg {
   display: flex;
   list-style: none;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .li-buttons-lg {
@@ -397,7 +364,6 @@ body {
 
 .para-testi {
   margin-bottom: 15px;
-  width: 295px;
   height: 76px;
   font-family: "Poppins";
   font-style: normal;
@@ -423,7 +389,6 @@ body {
 }
 
 .about-myself {
-  height: 1263px;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 0;
   background-image: none;
@@ -551,4 +516,217 @@ body {
 
 .intro-content p {
   margin-top: 0;
+}
+
+/* CONTACT FORM FOOTER */
+.contact-form {
+  margin-top: 0;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 0;
+  height: 860px;
+}
+
+.conctact-me-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#conctact-me-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 679px;
+  min-width: 400px;
+  max-width: 500px;
+  border: none;
+}
+
+.title-para-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-contact-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffff;
+}
+
+#para-contact-me {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 27px;
+  width: auto;
+}
+
+#full-name,
+#email-address {
+  min-height: 48px;
+  background: #ffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #010203;
+  padding: 15px 16px;
+  border: none;
+}
+
+#message {
+  height: 170px;
+  border-radius: 8px;
+  margin-bottom: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding: 15px 16px;
+  border: none;
+}
+
+.contact-btn {
+  width: 150px;
+  min-height: 48px;
+  align-self: center;
+  background: #ffff;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border: none;
+  padding: 15px 16px;
+}
+
+.contact-btn:hover {
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  background: #6070ff;
+  box-shadow: 5px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.contact-btn:active {
+  background: #2230d2;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+    min-height: 500px;
+    max-height: 600px;
+  }
+
+  .intro {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: initial;
+    background-size: cover;
+    background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg);
+  }
+
+  .intro h1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .intro p {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-gap: 50px;
+  }
+
+  .para-testi {
+    width: 295px;
+  }
+
+  .about-myself {
+    height: 1263px;
+  }
+
+  .works .grid-box img {
+    /* height: 295px; */
+    width: 100%;
+  }
+
+  .grid-box {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 752px;
+    width: 400px;
+  }
+
+  .content-box-works {
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+  }
+
+  /* .title-grid-box {
+    margin-bottom: 25px;
+  } */
+
+  .canopy-row {
+    margin-bottom: 25px;
+  }
+
+  .title-grid-box h2 {
+    margin-bottom: 15px;
+  }
+
+  .content-box-works p {
+    margin-bottom: 25px;
+  }
+
+  .contact-btn {
+    align-self: flex-start;
+  }
+
+  #para-contact-me {
+    margin-bottom: 57px;
+  }
 }
