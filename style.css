@@ -214,18 +214,26 @@ body {
   background-color: white;
   max-width: 1156px;
   margin-bottom: 100px;
-  display: flex;
   border-radius: 15px;
   margin-top: 18px;
   box-shadow: 5px 5px 30px rgba(56, 42, 42, 0.445);
   position: relative;
   padding: 25px;
+  height: 500px;
 }
 
 .grid-box img {
   align-self: center;
   height: 448px;
   width: 50%;
+}
+
+.img-on-right {
+  float: right;
+}
+
+.img-on-left {
+  float: left;
 }
 
 .content-box-works {
