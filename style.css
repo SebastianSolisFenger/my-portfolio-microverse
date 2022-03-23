@@ -34,7 +34,7 @@ body {
   position: absolute;
   width: 259px;
   height: 40px;
-  left: 1050px;
+  left: 1090px;
   top: 16px;
 }
 
@@ -138,13 +138,13 @@ body {
   height: 120px;
   font-family: "Poppins", "sans-serif";
   font-style: normal;
-  font-weight: 700, bold;
-  font-size: 40px;
+  font-weight: 700;
+  font-size: 48px;
   line-height: 52px;
   display: flex;
   align-items: center;
   color: #172b4d;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .intro p {
@@ -156,7 +156,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   color: #344563;
 }
@@ -182,6 +182,14 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: rgb(96, 112, 255);
+}
+
+.first-connect-div {
+  margin-top: 28px;
+}
+
+.connect-about-myself {
+  margin-top: 5px;
 }
 
 .connect-a {
@@ -468,9 +476,11 @@ body {
 }
 
 .about-myself {
-  border-top-right-radius: 80px;
+  border-top-right-radius: 180px;
   border-bottom-left-radius: 0;
   background-image: none;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
 .intro-content .title-about-myself {
@@ -480,9 +490,18 @@ body {
   font-size: 40px;
   width: 50%;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
+.intro-content {
+  width: 650px;
+}
+/* .intro-content intro{
+  width 927px;
+} */
+
 .about-ms {
+  margin-top: 24px;
   margin-bottom: 24px;
 }
 
@@ -531,18 +550,29 @@ body {
 }
 
 .submenuItems {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   background: #fff;
   list-style: none;
   padding: 12px;
 }
 
 .submenuItems li {
-  height: 66.72px;
-  border-bottom: 1px solid #b6b6b6;
+  /* height: 66.72px; */
+  display: flex;
+  flex-direction: column;
+  width: 122px;
+  height: 120px;
+  /* border-bottom: 1px solid #b6b6b6; */
+  border: none;
   border-radius: 8px;
   background-color: #f7f7f9;
   margin-bottom: 14px;
   position: relative;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
 }
 
 .about-titles {
@@ -556,7 +586,7 @@ body {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000;
+  color: #344563;
 }
 
 .arrows {
@@ -568,7 +598,7 @@ body {
 }
 
 .circle-menu-pic {
-  position: absolute;
+  /* position: absolute; */
   width: 48px;
   height: 48px;
   left: 12px;
@@ -578,7 +608,7 @@ body {
 
 .submenuItems a {
   text-decoration: none;
-  position: absolute;
+  /* position: absolute; */
   height: 24px;
   left: 76px;
   right: 12px;
@@ -649,6 +679,7 @@ body {
   color: #ebebff;
   margin-bottom: 27px;
   width: auto;
+  height: 102px;
 }
 
 #full-name,
@@ -750,6 +781,7 @@ body {
     width: auto;
     height: auto;
     margin-bottom: 20px;
+    font-size: 20px;
   }
 
   .grid-wrapper {
@@ -764,6 +796,7 @@ body {
 
   .about-myself {
     height: 1263px;
+    padding: 0;
   }
 
   .works .grid-box img {
@@ -817,5 +850,46 @@ body {
     z-index: 2;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .nav-bar .header-logo .header-logo-link {
+    left: 32px;
+  }
+
+  .circle-menu-pic {
+    position: absolute;
+  }
+
+  .submenuItems a {
+    position: absolute;
+  }
+
+  .submenuItems {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 1px solid #b6b6b6; */
+    border-radius: 8px;
+    /* background-color: #f7f7f9; */
+    margin-bottom: 14px;
+    position: relative;
+    gap: 4px;
+    padding: 2px;
+  }
+
+  .submenuItems li {
+    height: 66.72px;
+    width: auto;
+    /* display: block; */
+    /* display: flex;
+    flex-direction: column; */
+    /* border-bottom: 1px solid #b6b6b6; */
+    border: none;
+    border-radius: 8px;
+    background-color: #f7f7f9;
+    margin-bottom: 10px;
+    position: relative;
+    gap: 2px;
+    padding: 2px;
   }
 }
