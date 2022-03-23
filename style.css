@@ -25,13 +25,48 @@ body {
   z-index: 2;
 }
 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 32px;
+
+  position: absolute;
+  width: 259px;
+  height: 40px;
+  left: 1050px;
+  top: 16px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  height: 20px;
+
+  /* Body / 3 - Bolder */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+}
+
 .nav-bar .header-logo .header-logo-link {
   position: absolute;
   text-decoration: none;
   width: 150px;
   height: 45px;
   top: calc(50% - 40px / 2);
-  left: 12px;
+  left: 132px;
   padding: 8px 5px;
   font-weight: bold;
   margin-left: 24px;
@@ -43,9 +78,9 @@ body {
   height: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 30px;
   line-height: 20px;
   color: #6070ff;
+  font-size: 18px;
 }
 
 .nav-bar .header-logo .header-logo-link:hover {
@@ -64,11 +99,10 @@ body {
   right: 35px;
   border-style: none;
   margin-right: 12px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   z-index: 2;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -95,13 +129,13 @@ body {
   width: 927px;
 }
 
-/* .first-intro {
-  justify-content: flex-end;
+/* .intro .first-intro {
+  flex-wrap: nowrap;
 } */
 
 .intro h1 {
   width: 927px;
-  height: 150px;
+  height: 120px;
   font-family: "Poppins", "sans-serif";
   font-style: normal;
   font-weight: 700, bold;
@@ -122,7 +156,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   color: #344563;
 }
@@ -132,6 +166,7 @@ body {
   display: flex;
   align-items: center;
   width: 920px;
+  margin-top: 2px;
   /* align-self: center; */
 }
 
@@ -156,6 +191,7 @@ body {
 .connect-a h3 {
   font-weight: 500;
   color: rgb(96, 112, 255);
+  height: 24px;
 }
 
 .connect-a :hover {
@@ -771,5 +807,15 @@ body {
 
   #para-contact-me {
     margin-bottom: 57px;
+  }
+
+  .nav-hamburger {
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
