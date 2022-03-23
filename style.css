@@ -792,10 +792,6 @@ body {
     font-size: 20px;
   }
 
-  /* .intro .intro-p-firstOne {
-    margin-top: 20px;
-  } */
-
   .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
@@ -833,9 +829,12 @@ body {
     padding: 15px;
   }
 
-  /* .title-grid-box {
-    margin-bottom: 25px;
-  } */
+  #active-one {
+    color: #396df2;
+    border: 1px solid #6070ff;
+    background: #ffff;
+    box-shadow: none;
+  }
 
   .canopy-row {
     margin-bottom: 25px;
