@@ -924,6 +924,7 @@ body {
 
   .first-intro {
     width: auto;
+    padding-left: 20px;
   }
 
   .intro-content p {
