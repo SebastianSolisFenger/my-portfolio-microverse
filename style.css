@@ -267,11 +267,15 @@ body {
 
 .works .grid-wrapper {
   grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-box {
   background-color: white;
-  max-width: 1156px;
+  width: 80%;
   margin-bottom: 100px;
   border-radius: 15px;
   margin-top: 18px;
@@ -448,7 +452,7 @@ body {
 
 .para-testi {
   margin-bottom: 20px;
-  width: 496px;
+  width: auto;
   height: 76px;
   font-family: "Poppins";
   font-style: normal;
