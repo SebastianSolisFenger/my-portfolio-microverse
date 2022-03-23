@@ -30,7 +30,7 @@ body {
   flex-direction: row;
   list-style: none;
   gap: 32px;
-
+  align-items: center;
   position: absolute;
   width: 259px;
   height: 40px;
