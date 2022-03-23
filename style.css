@@ -38,22 +38,14 @@ body {
 .nav-links li a {
   text-decoration: none;
   height: 20px;
-
-  /* Body / 3 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  /* identical to box height, or 133% */
-
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Neutrals/N600 */
-
   color: #344563;
 }
 
@@ -126,10 +118,6 @@ body {
   width: 927px;
 }
 
-/* .intro .first-intro {
-  flex-wrap: nowrap;
-} */
-
 .intro h1 {
   width: 927px;
   height: 120px;
@@ -164,12 +152,10 @@ body {
   align-items: center;
   width: 920px;
   margin-top: 2px;
-  /* align-self: center; */
 }
 
 .connect-div {
   text-decoration: none;
-  /* margin-top: 35px; */
   position: static;
   width: 217px;
   height: 24px;
@@ -179,10 +165,6 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: rgb(96, 112, 255);
-}
-
-.first-connect-div {
-  margin-top: 28px;
 }
 
 .connect-about-myself {
@@ -228,7 +210,6 @@ body {
 }
 
 .headline {
-  /* background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg); */
   background-image: url(./styling-features-pictures/desktop-backg.svg);
   background-color: #fff;
   background-size: cover;
@@ -246,7 +227,6 @@ body {
 
 .first-headline {
   height: 820px;
-  /* justify-content: cen; */
 }
 
 .container {
@@ -497,9 +477,6 @@ body {
 .intro-content {
   width: 650px;
 }
-/* .intro-content intro{
-  width 927px;
-} */
 
 .about-ms {
   margin-top: 24px;
@@ -565,7 +542,6 @@ body {
   flex-direction: column;
   width: 122px;
   height: 120px;
-  /* border-bottom: 1px solid #b6b6b6; */
   border: none;
   border-radius: 8px;
   background-color: #f7f7f9;
@@ -609,7 +585,6 @@ body {
 
 .submenuItems a {
   text-decoration: none;
-  /* position: absolute; */
   height: 24px;
   left: 76px;
   right: 12px;
@@ -649,7 +624,6 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 679px;
-  /* min-width: 400px; */
   max-width: 500px;
   border: none;
 }
@@ -754,6 +728,19 @@ body {
   .intro h1 {
     margin-bottom: 80px;
   }
+
+  #full-name,
+  #email-address {
+    padding-left: 10px;
+  }
+
+  #message {
+    padding-left: 10px;
+  }
+
+  .first-connect-div {
+    margin-top: 60px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -806,7 +793,6 @@ body {
   }
 
   .works .grid-box img {
-    /* height: 295px; */
     width: 100%;
   }
 
@@ -817,8 +803,6 @@ body {
     height: 752px;
     width: auto;
     max-width: 400px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
   }
 
   .content-box-works {
@@ -855,7 +839,6 @@ body {
   }
 
   .nav-hamburger {
-    /* display: block; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -880,9 +863,7 @@ body {
     display: block;
     display: flex;
     flex-direction: column;
-    /* border-bottom: 1px solid #b6b6b6; */
     border-radius: 8px;
-    /* background-color: #f7f7f9; */
     margin-bottom: 14px;
     position: relative;
     gap: 4px;
@@ -892,10 +873,6 @@ body {
   .submenuItems li {
     height: 66.72px;
     width: auto;
-    /* display: block; */
-    /* display: flex;
-    flex-direction: column; */
-    /* border-bottom: 1px solid #b6b6b6; */
     border: none;
     border-radius: 8px;
     background-color: #f7f7f9;
@@ -919,10 +896,6 @@ body {
     width: auto;
   }
 
-  /* .intro {
-    width: 80%;
-  } */
-
   .first-intro {
     width: auto;
   }
@@ -934,8 +907,6 @@ body {
   .first-headline {
     display: flex;
     flex-direction: column;
-
-    /* align-items: flex-start; */
     background-position: initial;
     background-size: cover;
     background-image: url(./styling-features-pictures/header-shapes\ mobile@2x.svg);
