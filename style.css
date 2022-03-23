@@ -817,7 +817,10 @@ body {
     flex-direction: column;
     padding: 15px;
     height: 752px;
-    width: 400px;
+    width: auto;
+    max-width: 400px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
   }
 
   .content-box-works {
@@ -921,6 +924,10 @@ body {
 
   .first-intro {
     width: auto;
+  }
+
+  .intro-content p {
+    height: auto;
   }
 
   .first-headline {
