@@ -60,7 +60,48 @@ body {
   font-weight: bold;
   margin-left: 24px;
   border-radius: 80%;
+  animation: rotation 2s linear;
+  animation-iteration-count: 1;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ! CHANGE */
+
+/* .nav-bar .header-logo .header-logo-link {
+  position: absolute;
+  text-decoration: none;
+  width: 150px;
+  height: 45px;
+  top: calc(50% - 40px / 2);
+  left: 132px;
+  padding: 8px 5px;
+  font-weight: bold;
+  margin-left: 24px;
+  border-radius: 80%;
+  animation: rotation 2s linear;    HERE
+  animation-iteration-count: 1;    HERE
+}
+
+@keyframes rotation {     HERE
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* ! CHANGE */
 
 .header-logo-link h3 {
   width: 200px;
@@ -256,6 +297,8 @@ body {
 }
 
 .grid-box {
+  display: flex;
+  flex-direction: row;
   background-color: white;
   width: 80%;
   margin-bottom: 100px;
@@ -265,7 +308,48 @@ body {
   position: relative;
   padding: 25px;
   height: 500px;
+  gap: 15px;
+  transition: transform 0.5s linear;
 }
+
+#row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.grid-box:hover {
+  transform: scale(1.1);
+}
+
+/* ! CHANGES */
+
+/* !.grid-box {
+
+  display: flex;              HERE
+  flex-direction: row;              HERE
+  background-color: white;
+  width: 80%;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  margin-top: 18px;
+  box-shadow: 5px 5px 30px rgba(56, 42, 42, 0.445);
+  position: relative;
+  padding: 25px;
+  height: 500px;
+  gap: 15px;                             HERE
+  transition: transform 0.5s linear;           HERE
+}
+
+#row-reverse {   HERE
+  display: flex;   HERE
+  flex-direction: row-reverse;  HERE
+}
+
+.grid-box:hover {    HERE
+  transform: scale(1.1);  HERE
+} */
+
+/* ! CHANGES */
 
 .hand-cursor {
   position: absolute;
@@ -281,15 +365,27 @@ body {
   align-self: center;
   height: 448px;
   width: 50%;
+  transition: transform 0.5s linear;
 }
 
-.img-on-right {
-  float: right;
+.grid-box img:hover {
+  transform: scale(1.05);
 }
 
-.img-on-left {
-  float: left;
+/* ! CHANGE */
+
+/* .grid-box img {
+  align-self: center;
+  height: 448px;
+  width: 50%;
+  transition: transform 0.5s linear;  HERE
 }
+
+.grid-box img:hover {    HERE
+  transform: scale(1.05);    HERE
+} */
+
+/* ! CHANGE */
 
 .content-box-works {
   display: flex;
@@ -405,6 +501,7 @@ body {
   border-radius: 8px;
   background: #ffff;
   border-radius: 8px;
+  transition: transform 0.3s linear;
 }
 
 .see-proj-btn-itself:hover {
@@ -417,8 +514,48 @@ body {
   box-shadow: 5px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
-  transition: 0.5s;
+  transform: scale(1.1);
 }
+
+/* ! CHANGES */
+
+/* .see-proj-btn-itself {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 128px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #ffff;
+  border-radius: 8px;
+  transition: transform 0.3s linear;    HERE
+}
+
+.see-proj-btn-itself:hover {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  background: #6070ff;
+  box-shadow: 5px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+  transform: scale(1.1);  HERE
+} */
+
+/* ! CHANGES */
 
 .see-proj-btn-itself:active {
   background: #2230d2;
@@ -658,7 +795,34 @@ body {
   margin-bottom: 27px;
   width: auto;
   height: 102px;
+  transition: transform 0.3s linear;
 }
+
+#para-contact-me:hover {
+  transform: translate(7px);
+}
+
+/* ! CHANGE */
+
+/* #para-contact-me {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 27px;
+  width: auto;
+  height: 102px;
+  transition: transform 0.3s linear;  HERE
+}
+
+#para-contact-me:hover {   HERE
+  transform: translate(7px);   HERE
+} */
+
+/* ! CHANGE */
 
 #full-name,
 #email-address {
@@ -677,6 +841,7 @@ body {
   color: #010203;
   padding: 15px 16px;
   border: none;
+  transition: transform 0.4s linear;
 }
 
 #message {
