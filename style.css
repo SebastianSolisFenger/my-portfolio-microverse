@@ -256,6 +256,8 @@ body {
 }
 
 .grid-box {
+  display: flex;
+  flex-direction: row;
   background-color: white;
   width: 80%;
   margin-bottom: 100px;
@@ -265,6 +267,17 @@ body {
   position: relative;
   padding: 25px;
   height: 500px;
+  gap: 15px;
+  transition: transform 0.5s linear;
+}
+
+.grid-box:hover {
+  transform: scale(1.1);
+}
+
+#row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .hand-cursor {
@@ -281,6 +294,11 @@ body {
   align-self: center;
   height: 448px;
   width: 50%;
+  transition: transform 0.5s linear;
+}
+
+.grid-box img:hover {
+  transform: scale(1.05);
 }
 
 .img-on-right {
