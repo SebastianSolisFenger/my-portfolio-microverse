@@ -2,7 +2,7 @@
 
 my-portfolio-microverse
 
-This is my portfolio.
+This is my portfolio to showcase my education, qualifications, skills, training, experiences, projects, resume.
 
 ## Built With
 
