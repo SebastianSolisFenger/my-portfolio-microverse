@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+My personal portfolio.
+
 Hi! I'm Seba! Welcome to my personal portfolio built with responsive and soft design for both, mobile and desktop versions, to showcase my education, qualifications, skills, training, experiences, projects, etc. I'm looking forward to collaborating with tech teams all around the globe.
 
 Next, some screenshots from the templates are provided:
