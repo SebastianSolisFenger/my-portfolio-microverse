@@ -213,7 +213,6 @@ body {
   background-image: url(./styling-features-pictures/desktop-backg.svg);
   background-color: #fff;
   background-size: cover;
-  /* background-position: ; */
   background-repeat: no-repeat;
   background-origin: content-box;
   border-bottom-left-radius: 25%;
@@ -541,7 +540,6 @@ body {
 }
 
 .submenuItems li {
-  /* height: 66.72px; */
   display: flex;
   flex-direction: column;
   width: 122px;
@@ -579,7 +577,6 @@ body {
 }
 
 .circle-menu-pic {
-  /* position: absolute; */
   width: 48px;
   height: 48px;
   left: 12px;
@@ -769,7 +766,6 @@ body {
     height: 720px;
   }
 
-  /* //// */
   body {
     height: 100vh;
     min-height: 500px;
@@ -780,15 +776,6 @@ body {
     flex-direction: column;
     width: 80%;
   }
-
-  /* .headline {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-position: initial;
-    background-size: cover;
-  } */
 
   .intro h1 {
     width: 100%;
@@ -920,16 +907,6 @@ body {
   .hand-cursor {
     display: none;
   }
-
-  /* .contact-form {
-    margin-top: 0;
-    background-image: url(./styling-features-pictures/contact-mobile-back.png);
-    padding: 2px;
-  } */
-
-  /* .intro-p-firstOne {
-    width: auto;
-  } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 940px) {
@@ -1094,18 +1071,10 @@ body {
     background-size: contain;
     padding: 2px;
   }
-
-  /* .intro-p-firstOne {
-    width: auto;
-  } */
 }
 
 @media only screen and (min-width: 940px) and (max-width: 1200px) {
   .intro .intro-p-firstOne {
-    width: auto;
-  }
-
-  .first-intro {
     width: auto;
   }
 
@@ -1129,6 +1098,5 @@ body {
     margin-top: 0;
     background-image: url(./styling-features-pictures/contact\ form\ background\ shapes@2x.png);
     background-position: initial;
-    /* padding: 20px; */
   }
 }
