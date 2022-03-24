@@ -74,35 +74,6 @@ body {
   }
 }
 
-/* ! CHANGE */
-
-/* .nav-bar .header-logo .header-logo-link {
-  position: absolute;
-  text-decoration: none;
-  width: 150px;
-  height: 45px;
-  top: calc(50% - 40px / 2);
-  left: 132px;
-  padding: 8px 5px;
-  font-weight: bold;
-  margin-left: 24px;
-  border-radius: 80%;
-  animation: rotation 2s linear;    HERE
-  animation-iteration-count: 1;    HERE
-}
-
-@keyframes rotation {     HERE
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* ! CHANGE */
-
 .header-logo-link h3 {
   width: 200px;
   height: 20px;
