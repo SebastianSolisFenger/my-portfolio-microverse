@@ -23,10 +23,10 @@ Next, some screenshots from the templates are provided:
 
 👤 **Sebastian**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@SebastianSolisFenger](https://github.com/SebastianSolisFenger)
 - Twitter:[@twitterhandle](https://twitter.com/twitterhandle)
 
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sebastian-solis-2712731a5/)
 
 ## 🤝 Contributing
 
