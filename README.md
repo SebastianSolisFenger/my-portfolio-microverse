@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-my-portfolio-microverse
-
-This is my portfolio to showcase my education, qualifications, skills, training, experiences, projects, resume.
+This is my portfolio for both, mobile and desktop versions, to showcase my education, qualifications, skills, training, experiences, projects, etc.
 
 ## Built With
 
