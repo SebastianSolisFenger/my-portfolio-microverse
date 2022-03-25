@@ -11,8 +11,7 @@ body {
   overflow-x: hidden;
   background: #f7f7f9;
 }
-
-.nav-bar {
+ttt .nav-bar {
   position: fixed;
   display: flex;
   justify-content: space-between;
