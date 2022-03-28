@@ -34,7 +34,7 @@ To get a local copy up and running, follow these simple example steps:
 4. Write `git clone https://github.com/SebastianSolisFenger/my-portfolio-microverse.git`.
 5. Go to the repository folder in your command prompt `cd my-portfolio-microverse`
 
-## Author
+## Authors
 
 👤 **Sebastian**
 
