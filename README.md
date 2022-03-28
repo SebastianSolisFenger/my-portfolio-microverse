@@ -22,8 +22,6 @@ Next, some screenshots from the templates are provided:
 
 ## Live Demo
 
-[Live Demo Link](
-
 - Link to its online version: https://sebastiansolisfenger.github.io/my-portfolio-microverse/)
 
 ## Getting Started
