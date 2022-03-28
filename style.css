@@ -59,6 +59,7 @@ body {
   padding: 8px 5px;
   font-weight: bold;
   margin-left: 24px;
+  text-align: center;
   border-radius: 80%;
   animation: logoRotation 2s linear;
   animation-iteration-count: 1;
@@ -75,7 +76,6 @@ body {
 }
 
 .header-logo-link h3 {
-  width: 200px;
   height: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -1153,10 +1153,14 @@ body {
   }
 }
 
-input:focus,
-textarea:focus,
-button:focus,
-li a:focus,
-.connect-a:focus {
+:focus {
   outline: 4px solid red;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(-- color-purple);
 }
