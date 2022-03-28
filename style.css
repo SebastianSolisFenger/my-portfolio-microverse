@@ -1157,6 +1157,6 @@ input:focus,
 textarea:focus,
 button:focus,
 li a:focus,
-connect-a h3:focus {
+.connect-div:focus {
   outline: 4px solid red;
 }
