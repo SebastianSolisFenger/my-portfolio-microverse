@@ -2,8 +2,6 @@
 
 My personal portfolio.
 
-- Link to its online version: https://sebastiansolisfenger.github.io/my-portfolio-microverse/
-
 Hi! I'm Seba! Welcome to my personal portfolio built with responsive and soft design for both, mobile and desktop versions, to showcase my education, qualifications, skills, training, experiences, projects, etc. I'm looking forward to collaborating with tech teams all around the globe.
 
 Next, some screenshots from the templates are provided:
@@ -18,10 +16,25 @@ Next, some screenshots from the templates are provided:
 
 ![WhatsApp Image 2022-03-24 at 12 11 32 AM (2)](https://user-images.githubusercontent.com/88522494/159834972-6b55091e-80f7-4cee-8662-8b25bc9d6893.jpeg)
 
-
 ## Built With
 
 - Major languages: Css & Html.
+
+## Live Demo
+
+[Live Demo Link](
+
+- Link to its online version: https://sebastiansolisfenger.github.io/my-portfolio-microverse/)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps:
+
+1. Copy this link `https://github.com/SebastianSolisFenger/my-portfolio-microverse.git`.
+2. Get the directory that you want to clone the repository.
+3. Open the command prompt in this directory.
+4. Write `git clone https://github.com/SebastianSolisFenger/my-portfolio-microverse.git`.
+5. Go to the repository folder in your command prompt `cd my-portfolio-microverse`
 
 ## Author
 
