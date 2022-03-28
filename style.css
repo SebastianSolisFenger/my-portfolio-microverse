@@ -1152,3 +1152,11 @@ body {
     background-position: initial;
   }
 }
+
+input:focus,
+textarea:focus,
+button:focus,
+li a:focus,
+connect-a h3:focus {
+  outline: 4px solid red;
+}
