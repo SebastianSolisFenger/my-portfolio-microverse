@@ -28,7 +28,7 @@ Next, some screenshots from the templates are provided:
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+To get a local copy up and running, follow these simple example steps:
 
 1. Copy this link `https://github.com/SebastianSolisFenger/my-portfolio-microverse.git`.
 2. Get the directory that you want to clone the repository.
