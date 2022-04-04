@@ -35,10 +35,26 @@ body {
   margin-right: 140px;
 }
 
+.submenuItems a {
+  text-decoration: none;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  top: calc(50% - 24px / 2 - 0.36px);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
 .nav-links li a {
   text-decoration: none;
   height: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -105,7 +121,6 @@ body {
   align-items: center;
   z-index: 2;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .nav-hamburger .line {
@@ -133,7 +148,7 @@ body {
 .intro h1 {
   width: 927px;
   height: 120px;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -193,6 +208,14 @@ body {
   height: 24px;
 }
 
+:focus {
+  outline: 4px solid red;
+}
+
+:focus-visible {
+  outline: 3px solid purple;
+}
+
 .connect-a :hover {
   cursor: pointer;
 }
@@ -214,6 +237,32 @@ body {
   font-size: 30px;
   text-decoration: none;
   color: #505f79;
+}
+
+.submenuItems li {
+  display: flex;
+  flex-direction: column;
+  width: 122px;
+  height: 120px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  margin-bottom: 14px;
+  position: relative;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.canopy-row ul li {
+  display: flex;
+  margin-right: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
 }
 
 .intro .social-icons ul li:hover {
@@ -331,10 +380,6 @@ body {
   padding-left: 25px;
 }
 
-.title-grid-box {
-  margin-bottom: 15px;
-}
-
 .title-grid-box h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -362,19 +407,8 @@ body {
   margin-left: 18px;
 }
 
-.canopy-row ul li {
-  display: flex;
-  margin-right: 8px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-}
-
 .content-box-works p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -399,7 +433,7 @@ body {
 
 .li-buttons-lg .buttons-lg {
   padding: 4px 12px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -416,7 +450,7 @@ body {
 }
 
 .see-proj-btn-itself {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -434,7 +468,6 @@ body {
   box-sizing: border-box;
   border-radius: 8px;
   background: #ffff;
-  border-radius: 8px;
   transition: all 0.3s linear;
 }
 
@@ -467,7 +500,7 @@ body {
   margin-bottom: 20px;
   width: auto;
   height: 76px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -480,6 +513,7 @@ body {
 
 .title-grid-box {
   margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .testimonials .grid-box .rating {
@@ -501,7 +535,6 @@ body {
 .intro-content .title-about-myself {
   height: 101px;
   line-height: 50px;
-  align-self: left;
   font-size: 40px;
   width: 50%;
   margin-bottom: 15px;
@@ -530,15 +563,12 @@ body {
 }
 
 .accordion-menu {
-  list-style: none;
-}
-
-.accordion-menu {
   width: 100%;
   margin-top: 36px;
   background: #fff;
   border-radius: 4px;
   height: 484.15px;
+  list-style: none;
 }
 
 .dropdownlink {
@@ -570,21 +600,6 @@ body {
   padding: 12px;
 }
 
-.submenuItems li {
-  display: flex;
-  flex-direction: column;
-  width: 122px;
-  height: 120px;
-  border: none;
-  border-radius: 8px;
-  background-color: #f7f7f9;
-  margin-bottom: 14px;
-  position: relative;
-  justify-content: center;
-  gap: 15px;
-  padding: 10px;
-}
-
 .about-titles {
   position: absolute;
   top: 24px;
@@ -613,22 +628,6 @@ body {
   left: 12px;
   top: calc(50% - 48px / 2 - 0.36px);
   border: 1px solid #ffff;
-}
-
-.submenuItems a {
-  text-decoration: none;
-  height: 24px;
-  left: 76px;
-  right: 12px;
-  top: calc(50% - 24px / 2 - 0.36px);
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
 }
 
 .intro-content p {
@@ -670,12 +669,12 @@ body {
 }
 
 .name-contact-title {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffff;
+  color: #fff;
 }
 
 #para-contact-me {
@@ -700,7 +699,6 @@ body {
 #email-address {
   min-height: 48px;
   background: #ffff;
-  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
@@ -719,7 +717,7 @@ body {
   height: 170px;
   border-radius: 8px;
   margin-bottom: 27px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -735,7 +733,7 @@ body {
   align-self: center;
   background: #ffff;
   border-radius: 8px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -767,10 +765,6 @@ body {
   .row-reverse {
     display: flex;
     flex-direction: column;
-  }
-
-  .intro h1 {
-    margin-bottom: 80px;
   }
 
   #full-name,
@@ -821,6 +815,7 @@ body {
   .intro h1 {
     width: 100%;
     height: 150px;
+    margin-bottom: 80px;
   }
 
   .intro p {
@@ -897,17 +892,9 @@ body {
     margin-bottom: 57px;
   }
 
-  .nav-hamburger {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
   .nav-bar .header-logo .header-logo-link {
-    left: 32px;
+    left: 12px;
+    top: 20px;
   }
 
   .circle-menu-pic {
@@ -942,17 +929,203 @@ body {
   }
 
   .nav-links {
-    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgba(96, 112, 255, 0.9);
+    margin-top: -1900px;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .activin {
+    margin-top: 670px;
+    height: 110vh;
+    margin-right: -10px;
+    margin-bottom: -80px;
+    margin-left: -10px;
+    opacity: 1;
+  }
+
+  .nav-links li a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: white;
+  }
+
+  .nav-links #first {
+    position: absolute;
+    top: 190px;
+    left: 25px;
+
+    /* margin-bottom: 20px; */
+  }
+
+  .nav-links #second {
+    position: absolute;
+    top: 260px;
+    left: 25px;
+
+    /* margin-bottom: 20px; */
+  }
+
+  .nav-links #third {
+    position: absolute;
+    top: 330px;
+    left: 25px;
+
+    /* margin-bottom: 20px; */
   }
 
   .hand-cursor {
     display: none;
   }
+
+  /* // animation HAMBURGER//  */
+  .active {
+    /* right: 0; */
+    z-index: 100;
+    transition: 0.8s linear;
+  }
+
+  .nav-hamburger {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 30px;
+  }
+
+  .active .bar:nth-child(2) {
+    opacity: 0;
+    background-color: white;
+  }
+
+  .active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(-315deg);
+    transform: translateY(8px) rotate(-315deg);
+    background-color: white;
+
+    /* width: 300%; */
+  }
+
+  .active .bar:nth-child(3) {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+    background-color: white;
+
+    /* width: 300%; */
+  }
+
+  /* // animation HAMBURGER//  */
 }
 
 @media only screen and (min-width: 464px) and (max-width: 768px) {
   .intro h1 {
     margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgba(96, 112, 255, 0.9);
+    margin-top: -1900px;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .activin {
+    margin-top: 670px;
+    height: 110vh;
+    margin-right: -10px;
+    margin-bottom: -80px;
+    margin-left: -10px;
+    opacity: 1;
+  }
+
+  .nav-links li a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: white;
+  }
+
+  .nav-links #first {
+    position: absolute;
+    top: 190px;
+    left: 25px;
+
+    /* margin-bottom: 20px; */
+  }
+
+  .nav-links #second {
+    position: absolute;
+    top: 260px;
+    left: 25px;
+
+    /* margin-bottom: 20px; */
+  }
+
+  .nav-links #third {
+    position: absolute;
+    top: 330px;
+    left: 25px;
+
+    /* margin-bottom: 20px; */
+  }
+
+  .hand-cursor {
+    display: none;
+  }
+
+  .nav-hamburger {
+    top: 30px;
+  }
+
+  .nav-bar .header-logo .header-logo-link {
+    left: 12px;
+    top: 20px;
+  }
+
+  /* // animation HAMBURGER//  */
+  .active {
+    /* right: 0; */
+    z-index: 100;
+    transition: 0.8s linear;
+  }
+
+  .active .bar:nth-child(2) {
+    opacity: 0;
+    background-color: white;
+  }
+
+  .active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(-315deg);
+    transform: translateY(8px) rotate(-315deg);
+    background-color: white;
+
+    /* width: 300%; */
+  }
+
+  .active .bar:nth-child(3) {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+    background-color: white;
+
+    /* width: 300%; */
   }
 }
 
@@ -1066,7 +1239,6 @@ body {
 
   .nav-hamburger {
     display: flex;
-    justify-content: center;
     align-items: center;
     z-index: 2;
     flex-direction: column;
@@ -1106,10 +1278,6 @@ body {
     position: relative;
     gap: 2px;
     padding: 2px;
-  }
-
-  .nav-links {
-    display: none;
   }
 
   .hand-cursor {
@@ -1153,14 +1321,6 @@ body {
   }
 }
 
-:focus {
-  outline: 4px solid red;
-}
-
 :focus:not(:focus-visible) {
   outline: none;
-}
-
-:focus-visible {
-  outline: 3px solid var(-- color-purple);
 }
