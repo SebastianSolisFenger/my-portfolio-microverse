@@ -33,17 +33,19 @@
       </div>
 
       <div class="hamburger-lines" role="button" aria-label="Hamburger menu">
-        <nav class="nav-hamburger">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
+        <nav class="nav-hamburger toggle-menu">
+          <span class="line line1 bar"></span>
+          <span class="line line2 bar"></span>
+          <span class="line line3 bar"></span>
         </nav>
       </div>
 
       <ul class="nav-links">
-        <li><a href=".header-content">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#footer-id">Contact</a></li>
+        <li id="first">
+          <a class="links-mob" href="#portfolio">Portfolio</a>
+        </li>
+        <li id="second"><a class="links-mob" href="#about">About</a></li>
+        <li id="third"><a class="links-mob" href="#footer">Contact</a></li>
       </ul>
     </nav>
 
@@ -94,7 +96,7 @@
       </div>
     </header>
 
-    <section class="works">
+    <section class="works" id="portfolio">
       <div class="container">
         <div class="grid-wrapper">
           <div class="grid-box">
@@ -302,7 +304,7 @@
       </div>
     </section>
 
-    <section class="about-myself headline">
+    <section class="about-myself headline" id="about">
       <div class="intro-content intro">
         <h2 class="title-about-myself">About Myself</h2>
         <p>
@@ -401,7 +403,7 @@
       </div>
     </section>
 
-    <footer class="contact-form headline">
+    <footer class="contact-form headline" id="footer">
       <form
         name="simple-contact-form"
         accept-charset="utf-8"
@@ -463,5 +465,6 @@
         </fieldset>
       </form>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
