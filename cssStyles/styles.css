@@ -416,6 +416,12 @@ p {
   font-size: 1.7rem;
 }
 
+.list-skills {
+  display: flex;
+  width: 75%;
+  align-items: center;
+}
+
 .works__action:hover {
   color: white;
   background-color: var(--primary-color);
