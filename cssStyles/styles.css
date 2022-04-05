@@ -999,14 +999,17 @@ p {
 
   .block-r {
     width: 36%;
+    margin-left: 10px;
   }
 
   .modal__description .block-r .modal__tags {
     margin-bottom: 2rem;
+    flex-wrap: wrap;
   }
 
   .modal-buttons {
     justify-content: left;
+    margin-top: 20px;
   }
 }
 
