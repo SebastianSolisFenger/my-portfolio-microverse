@@ -4,467 +4,514 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Sebastian Solis's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="wmobile.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 1024px)"
+      href="widescreen.css"
+    />
 
-    <!--load all Font Awesome styles -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MFT901EK2W"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-MFT901EK2W");
+    </script>
+
+    <title>Sebastian's Microverse Portfolio</title>
   </head>
 
-  <body>
-    <nav class="nav-bar">
-      <div class="header-logo">
-        <a href="#" class="header-logo-link">
-          <h3>My Logo</h3>
-        </a>
-      </div>
-
-      <div class="hamburger-lines" role="button" aria-label="Hamburger menu">
-        <nav class="nav-hamburger toggle-menu">
-          <span class="line line1 bar"></span>
-          <span class="line line2 bar"></span>
-          <span class="line line3 bar"></span>
+  <body onload="main()">
+    <div class="container">
+      <!-- <header>
+        <span class="logo rotate-logo"
+          ><a class="logo-text" title="logo" href="#">My Logo</a></span
+        >
+        <nav class="navigation hidden-on-small">
+          <ul class="menu">
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#about">About</a></li>
+            <li class="menu-item"><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="hidden-on-big mob-menu-line line"></div>
         </nav>
-      </div>
-
-      <ul class="nav-links">
-        <li id="first">
-          <a class="links-mob" href="#portfolio">Portfolio</a>
-        </li>
-        <li id="second"><a class="links-mob" href="#about">About</a></li>
-        <li id="third"><a class="links-mob" href="#footer">Contact</a></li>
-      </ul>
-    </nav>
-
-    <header class="headline first-headline">
-      <div class="intro first-intro">
-        <h1>
-          I’m Sebastian. <br />
-          Glad to see you!
-        </h1>
-        <p class="intro-p-firstOne">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded,don’t hesitate to contact
-          me.
-        </p>
-
-        <div class="connect-div first-connect-div">
-          <a href="#" class="connect-a">
-            <h3>LET'S CONNECT</h3>
+        <nav class="hidden-on-big">
+          <i class="fas fa-bars hamburger-item"></i>
+          <i class="fas fa-times close-item"></i>
+        </nav>
+      </header> -->
+      <nav class="nav-bar">
+        <div class="header-logo">
+          <a href="#" class="header-logo-link">
+            <h3>My Logo</h3>
           </a>
         </div>
 
-        <div class="social-icons">
-          <ul>
-            <li>
-              <a
-                href="https://github.com/SebastianSolisFenger"
-                aria-label="Github"
-              >
-                <i class="fa fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-label="Instagram"
-                ><i class="fa fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#" aria-label="Linkedin"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-
-    <section class="works" id="portfolio">
-      <div class="container">
-        <div class="grid-wrapper">
-          <div class="grid-box">
-            <img
-              class="img-on-left"
-              src="./styling-features-pictures/tonic-desktop-work.png"
-              alt="Image showing a preview of the work project: 'Tonic'"
-            />
-
-            <div class="content-box-works">
-              <div class="title-grid-box">
-                <h2>Tonic</h2>
-              </div>
-              <div class="canopy-row">
-                <h3>CANOPY</h3>
-                <ul>
-                  <li>• Back End Dev •</li>
-                  <li>2015</li>
-                </ul>
-              </div>
-              <p class="para-testi">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <div class="row-buttons-languages">
-                <ul class="ul-buttons-lg">
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">html</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">css</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">javascript</button>
-                  </li>
-                </ul>
-              </div>
-
-              <button
-                class="see-proj-btn-itself"
-                type="button"
-                aria-label="See Tonic Project"
-              >
-                See Project
-              </button>
-            </div>
-          </div>
-
-          <div class="grid-box row-reverse">
-            <img
-              class="img-on-right"
-              src="./styling-features-pictures/multi-post-desktop.png"
-              alt="Image showing a preview of the work project: 'Multi-Post Stories'"
-            />
-
-            <div class="content-box-works">
-              <div class="title-grid-box">
-                <h2>Multi-Post Stories</h2>
-              </div>
-              <div class="canopy-row">
-                <h3>FACEBOOK</h3>
-                <ul>
-                  <li>• Full Stack Dev •</li>
-                  <li>2015</li>
-                </ul>
-              </div>
-              <p class="para-testi">
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
-              </p>
-              <div class="row-buttons-languages">
-                <ul class="ul-buttons-lg">
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">html</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">
-                      Ruby on rails
-                    </button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">css</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">javaScript</button>
-                  </li>
-                </ul>
-              </div>
-
-              <button
-                class="see-proj-btn-itself"
-                type="button"
-                aria-label="See Multi-post Stories Project"
-              >
-                See Project
-              </button>
-            </div>
-          </div>
-
-          <div class="grid-box">
-            <img
-              class="img-on-left"
-              src="./styling-features-pictures/facebook-360-desktop.png"
-              alt="Image showing a preview of the work project: 'Facebook 360'"
-            />
-
-            <div class="content-box-works">
-              <div class="title-grid-box">
-                <h2>Facebook 360</h2>
-              </div>
-              <div class="canopy-row">
-                <h3>FACEBOOK</h3>
-                <ul>
-                  <li>• Full Stack Dev •</li>
-                  <li>2015</li>
-                </ul>
-              </div>
-              <p class="para-testi">
-                Exploring the future of media in Facebook's first Virtual
-                Reality app; a place to discover and enjoy 360 photos and videos
-                on Gear VR.
-              </p>
-              <div class="row-buttons-languages">
-                <ul class="ul-buttons-lg">
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">html</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">
-                      Ruby on rails
-                    </button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">css</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">javascript</button>
-                  </li>
-                </ul>
-              </div>
-              <div class="hand-cursor"></div>
-              <button
-                class="see-proj-btn-itself"
-                id="active-one"
-                type="button"
-                aria-label="See Facebook 360 Project"
-              >
-                See Project
-              </button>
-            </div>
-          </div>
-
-          <div class="grid-box row-reverse">
-            <img
-              class="img-on-right"
-              src="./styling-features-pictures/Uber-navigation-desktop.png"
-              alt="Image showing a preview of the work project: 'Uber Navigation'"
-            />
-
-            <div class="content-box-works">
-              <div class="title-grid-box">
-                <h2>Uber Navigation</h2>
-              </div>
-              <div class="canopy-row">
-                <h3>Uber</h3>
-                <ul>
-                  <li>• Lead Developer •</li>
-                  <li>2018</li>
-                </ul>
-              </div>
-              <p class="para-testi">
-                A smart assistant to make driving more safe, efficient, and fun
-                by unlocking your most expensive computer: your car.
-              </p>
-              <div class="row-buttons-languages">
-                <ul class="ul-buttons-lg">
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">html</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">
-                      Ruby on rails
-                    </button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">css</button>
-                  </li>
-                  <li class="li-buttons-lg">
-                    <button class="buttons-lg" type="button">javascript</button>
-                  </li>
-                </ul>
-              </div>
-
-              <button
-                class="see-proj-btn-itself"
-                type="button"
-                aria-label="See Uber Navigation Project"
-              >
-                See Project
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about-myself headline" id="about">
-      <div class="intro-content intro">
-        <h2 class="title-about-myself">About Myself</h2>
-        <p>
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-
-        <div class="connect-div connect-about-myself">
-          <a href="#" class="connect-a">
-            <h3>LET'S CONNECT</h3>
-          </a>
+        <div class="hamburger-lines" role="button" aria-label="Hamburger menu">
+          <nav class="nav-hamburger toggle-menu">
+            <span class="line line1 bar"></span>
+            <span class="line line2 bar"></span>
+            <span class="line line3 bar"></span>
+          </nav>
         </div>
 
-        <div class="social-icons about-ms">
-          <ul>
-            <li>
-              <a
-                href="https://github.com/SebastianSolisFenger"
-                aria-label="Github"
-              >
-                <i class="fa fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-label="Instagram"
-                ><i class="fa fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#" aria-label="Linkedin"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-            </li>
-          </ul>
-        </div>
-
-        <button class="see-proj-btn-itself resume-btn" type="button">
-          Get my resume
-        </button>
-      </div>
-
-      <div class="about-second-section intro">
-        <ul class="accordion-menu">
-          <li>
-            <div class="dropdownlink">
-              <h3 class="about-titles" id="Language-title">Languages</h3>
-              <i class="fa fa-chevron-down arrows" aria-hidden="true"></i>
-            </div>
-            <ul class="submenuItems">
+        <ul class="nav-links">
+          <li id="first">
+            <a class="links-mob" href="#portfolio">Portfolio</a>
+          </li>
+          <li id="second"><a class="links-mob" href="#about">About</a></li>
+          <li id="third"><a class="links-mob" href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="headline">
+        <div class="main">
+          <h1 class="title">I'm Sebastian!<br />Glad to see you!</h1>
+          <p class="main-text">
+            I’m a software developer! I can help you build a product, feature or
+            website. Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hesitate to
+            contact me.
+          </p>
+          <span class="connect-text">LET'S CONNECT</span>
+          <div>
+            <ul class="icon-list">
               <li>
-                <img
-                  src="./styling-features-pictures/JS-CIRCLE.png"
-                  alt="Image showing JavaScript's Logo"
-                  class="circle-menu-pic"
-                />
-                <a href="#">JavaScript</a>
+                <a title="Twitter" href="https://twitter.com/Chamkoriyski"
+                  ><i class="fab fa-twitter"></i
+                ></a>
               </li>
               <li>
-                <img
-                  src="./styling-features-pictures/HTML-CIRCLE.png"
-                  alt="Image showing Html's Logo"
-                  class="circle-menu-pic"
-                />
-                <a href="#">HTML</a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/axebit/"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
               </li>
-              <li class="no-margin-bottom">
-                <img
-                  src="./styling-features-pictures/CSS-CIRCLE.png"
-                  alt="Image showing Css's Logo"
-                  class="circle-menu-pic"
-                />
-                <a href="#">CSS </a>
+              <li>
+                <a title="GitHub" href="https://github.com/Hombre2014"
+                  ><i class="fab fa-github"></i
+                ></a>
               </li>
             </ul>
-          </li>
-
-          <li>
-            <div class="dropdownlink bottom-separator">
-              <h3 class="about-titles" id="fr-title">Frameworks</h3>
-              <i class="fa fa-chevron-right arrows" aria-hidden="true"></i>
-            </div>
-          </li>
-
-          <li>
-            <div class="dropdownlink bottom-separator">
-              <h3 class="about-titles" id="sk-title">Skills</h3>
-              <i class="fa fa-chevron-right arrows" aria-hidden="true"> </i>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <footer class="contact-form headline" id="footer">
-      <form
-        name="simple-contact-form"
-        accept-charset="utf-8"
-        action="https://formspree.io/f/xwkyqzan"
-        method="POST"
-        class="intro conctact-me-form"
-      >
-        <fieldset id="conctact-me-inputs">
-          <div class="title-para-contact">
-            <label class="name-contact-title" for="full-name">Contact me</label>
-            <p id="para-contact-me">
-              If you have an application you are interested in developing, a
-              feature that you need built or a project that needs coding. I’d
-              love to help with it
-            </p>
           </div>
+        </div>
+      </section>
+    </div>
+    <div id="portfolio" class="container-2">
+      <section class="works">
+        <div class="card-work">
+          <img
+            class="work-img hidden-on-big"
+            src="img/SnapshootPortfolio1.png"
+            alt="Photo of the main page of project 1"
+          />
+          <img
+            class="hidden-on-small big-work-img scaled"
+            src="img/big_SnapshootPortfolio1.png"
+            alt="Photo of the main page of project 1"
+          />
+          <div class="big-screen">
+            <h2 class="work-title">Tonic</h2>
+            <div class="details">
+              <span class="item type">CANOPY</span>
+              <span class="item grey-color">&#8226;</span>
+              <span class="item what-type grey-color">Back End Dev</span>
+              <span class="item grey-color">&#8226;</span>
+              <span class="item grey-color">2015</span>
+            </div>
+            <p class="work-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div>
+              <ul class="work-skills">
+                <li class="skill">
+                  <a href="https://html.spec.whatwg.org/multipage/">html</a>
+                </li>
+                <li class="skill">
+                  <a href="https://www.w3.org/Style/CSS/">css</a>
+                </li>
+                <li class="skill">
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    >javaScript</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="project-btn popup-btn" value="1">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card-work">
+          <img
+            class="work-img hidden-on-big"
+            src="img/SnapshootPortfolio2.png"
+            alt="Photo of the main page of project 2"
+          />
+          <img
+            class="hidden-on-small big-work-img scaled cl-right"
+            src="img/big_SnapshootPortfolio2.png"
+            alt="Photo of the main page of project 2"
+          />
+          <div class="big-screen">
+            <h2 class="work-title">Multi-Post Stories</h2>
+            <div class="details">
+              <span class="item type hidden-on-big">CANOPY</span>
+              <span class="item type hidden-on-small">FACEBOOK</span>
+              <span class="item grey-color">&#8226;</span>
+              <span class="item what-type grey-color">Back End Dev</span>
+              <span class="item grey-color">&#8226;</span>
+              <span class="item grey-color">2015</span>
+            </div>
+            <p class="work-text hidden-on-big">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <p class="work-text hidden-on-small">
+              Experimental content creation feature that allows users to add to
+              an existing story over the course of a day without spamming their
+              friends.
+            </p>
+            <div>
+              <ul class="work-skills">
+                <li class="skill">
+                  <a href="https://html.spec.whatwg.org/multipage/">html</a>
+                </li>
+                <li class="skill hidden-on-small">
+                  <a href="https://rubyonrails.org/">Ruby on rails</a>
+                </li>
+                <li class="skill">
+                  <a href="https://www.w3.org/Style/CSS/">css</a>
+                </li>
+                <li class="skill">
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    >javaScript</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="project-btn popup-btn" value="2">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card-work">
+          <img
+            class="work-img hidden-on-big"
+            src="img/SnapshootPortfolio3.png"
+            alt="Photo of the main page of project 3"
+          />
+          <img
+            class="hidden-on-small big-work-img scaled"
+            src="img/big_SnapshootPortfolio3.png"
+            alt="Photo of the main page of project 3"
+          />
+          <div class="big-screen">
+            <h2 class="work-title hidden-on-big">Tonic</h2>
+            <h2 class="work-title hidden-on-small left">Facebook 360</h2>
+            <div class="details">
+              <span class="item type hidden-on-big">CANOPY</span>
+              <span class="item type hidden-on-small">FACEBOOK</span>
+              <span class="item grey-color">&#8226;</span>
+              <span class="item what-type grey-color">Back End Dev</span>
+              <span class="item grey-color">&#8226;</span>
+              <span class="item grey-color">2015</span>
+            </div>
+            <p class="work-text hidden-on-big">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <p class="work-text hidden-on-small">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <div>
+              <ul class="work-skills">
+                <li class="skill">
+                  <a href="https://html.spec.whatwg.org/multipage/">html</a>
+                </li>
+                <li class="skill hidden-on-small">
+                  <a href="https://rubyonrails.org/">Ruby on rails</a>
+                </li>
+                <li class="skill">
+                  <a href="https://www.w3.org/Style/CSS/">css</a>
+                </li>
+                <li class="skill">
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    >javaScript</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="project-btn popup-btn" value="3">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="card-work">
+          <img
+            class="work-img hidden-on-big"
+            src="img/SnapshootPortfolio4.png"
+            alt="Photo of the main page of project 4"
+          />
+          <img
+            class="hidden-on-small big-work-img cl-right scaled"
+            src="img/big_SnapshootPortfolio4.png"
+            alt="Photo of the main page of project 4"
+          />
+          <div class="big-screen">
+            <h2 class="work-title hidden-on-big">Multi-Post Stories</h2>
+            <h2 class="work-title hidden-on-small left">Uber Navigation</h2>
+            <div class="details">
+              <span class="item type hidden-on-big">CANOPY</span>
+              <span class="item type hidden-on-small">Uber</span>
+              <span class="item grey-color">&#8226;</span>
+              <span class="item what-type grey-color hidden-on-big"
+                >Back End Dev</span
+              >
+              <span class="item what-type grey-color hidden-on-small"
+                >Lead Developer</span
+              >
+              <span class="item grey-color">&#8226;</span>
+              <span class="item grey-color hidden-on-big">2015</span>
+              <span class="item grey-color hidden-on-small">2018</span>
+            </div>
+            <p class="work-text hidden-on-big">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <p class="work-text hidden-on-small">
+              A smart assistant to make driving more safe, efficient, and fun by
+              unlocking your most expensive computer: your car.
+            </p>
+            <div>
+              <ul class="work-skills">
+                <li class="skill">
+                  <a href="https://html.spec.whatwg.org/multipage/">html</a>
+                </li>
+                <li class="skill hidden-on-small">
+                  <a href="https://rubyonrails.org/">Ruby on rails</a>
+                </li>
+                <li class="skill">
+                  <a href="https://www.w3.org/Style/CSS/">css</a>
+                </li>
+                <li class="skill">
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    >javaScript</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="project-btn popup-btn" value="4">
+              See Project
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="big-about">
+          <div class="left-part">
+            <h2 class="title myself">About<br />Myself</h2>
+            <p class="about-text">
+              I’m a software developer! I can help you build a product, feature
+              or website. Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hesitate to contact me.
+            </p>
+            <span class="connect-text">LET'S CONNECT</span>
+            <div>
+              <ul class="icon-list">
+                <li>
+                  <a title="Twitter" href="https://twitter.com/Chamkoriyski"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a title="LinkedIn" href="https://www.linkedin.com/in/axebit/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a title="GitHub" href="https://github.com/Hombre2014"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="project-btn">Get my resume</button>
+          </div>
+          <div class="right-part">
+            <div class="about-list">
+              <ul class="list-items">
+                <li class="item-arrow">
+                  <div class="with-arrow">
+                    <span>Languages</span>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="languages">
+                    <div class="single-lang">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                        ><img
+                          class="lng-icon"
+                          src="img/js.png"
+                          alt="Java Script logo"
+                      /></a>
+                      <span class="lang-name">JavaScript</span>
+                    </div>
+                    <div class="single-lang">
+                      <a href="https://html.spec.whatwg.org/multipage/"
+                        ><img
+                          class="lng-icon"
+                          src="img/html5.png"
+                          alt="HTML5 logo"
+                      /></a>
+                      <span class="lang-name">HTML 5</span>
+                    </div>
+                    <div class="single-lang">
+                      <a href="https://www.w3.org/Style/CSS/"
+                        ><img
+                          class="lng-icon"
+                          src="img/css.png"
+                          alt="CSS3 logo"
+                      /></a>
+                      <span class="lang-name">CSS 3</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-arrow">
+                  <div class="with-arrow">
+                    <span>Frameworks</span>
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
+                  <hr class="skill-line" />
+                </li>
+                <li class="item-arrow">
+                  <div class="with-arrow">
+                    <span>Skills</span>
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
+                  <hr class="skill-line" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact">
+        <div class="ftr-div">
+          <div class="foot-big">
+            <h2 class="title cnt-form">Contact me</h2>
+            <div class="container-form">
+              <p class="cnt-text">
+                If you have an application you are interested in developing, a
+                feature that you need built or a project that needs coding. I’d
+                love to help with it
+              </p>
+              <form
+                class="cnt-form-controls"
+                action="https://formspree.io/f/xleakzoe"
+                method="post"
+                id="contact-form"
+              >
+                <label for="name"
+                  ><span aria-hidden="false" class="label-text aria-h"
+                    >Please enter your name</span
+                  ><span aria-hidden="false" class="red aria-h">*</span>
+                  <input
+                    class="form-field"
+                    type="text"
+                    id="name"
+                    name="user_name"
+                    placeholder="Enter your name here"
+                    required
+                    maxlength="30"
+                  />
+                </label>
+                <label class="label-text" for="email"
+                  ><span aria-hidden="false" class="aria-h"
+                    >Please enter your email</span
+                  ><span aria-hidden="false" class="red aria-h">*</span>
+                  <input
+                    class="form-field"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email here"
+                    required
+                  />
+                </label>
+                <label id="last" class="label-text" for="msg"
+                  ><span aria-hidden="false" class="aria-h"
+                    >Please write your message</span
+                  ><span aria-hidden="false" class="red aria-h">*</span>
+                  <textarea
+                    class="form-field"
+                    name="message"
+                    id="msg"
+                    cols="30"
+                    rows="10"
+                    maxlength="500"
+                    required
+                    placeholder="Write your message here"
+                  ></textarea>
+                </label>
+                <span class="warning aria-h" aria-hidden="false"
+                  >Fields indicated with "</span
+                ><span aria-hidden="false" class="red aria-h">*</span
+                ><span aria-hidden="false" class="aria-h">" are mandatory</span>
+                <button type="submit" class="btn btn-big">Get in Touch</button>
+                <div class="error-message">Error!</div>
+              </form>
+            </div>
+            <div class="hidden-on-big line"></div>
+          </div>
+        </div>
+      </footer>
+    </div>
 
-          <input
-            type="text"
-            name="name"
-            id="full-name"
-            placeholder="Sebastian Solis Fenger"
-            aria-label="Write your full name"
-            required=""
-            maxlength="30"
-          />
-          <input
-            type="email"
-            name="_replyto"
-            id="email-address"
-            placeholder="solisfenger77@gmail.com"
-            aria-label="Write your email address"
-            required=""
-          />
-          <textarea
-            rows="5"
-            name="message"
-            id="message"
-            placeholder="Write your message here"
-            aria-label="Write your message here"
-            required=""
-            maxlength="500"
-          ></textarea>
-
-          <input
-            type="hidden"
-            name="_subject"
-            id="email-subject"
-            value="Contact Form Submission"
-          />
-          <button
-            class="contact-btn"
-            type="submit"
-            value="Submit"
-            aria-label="send message"
-          >
-            Get In Touch
-          </button>
-        </fieldset>
-      </form>
-    </footer>
+    <div class="popup-container">
+      <div class="popup">
+        <div class="popup-header">
+          <h2 id="popup-title"></h2>
+          <i id="close-popup" class="fas fa-times"></i>
+        </div>
+        <div class="popup-details"></div>
+        <div class="description">
+          <p id="popup-text"></p>
+          <div class="tech-links">
+            <ul class="popup-skills"></ul>
+            <hr />
+            <div class="popup-links">
+              <a class="button project-btn" id="live-url"
+                >See live <i class="far fa-share-square"></i
+              ></a>
+              <a class="button project-btn" id="source-url"
+                >See source <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
