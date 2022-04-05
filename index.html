@@ -17,29 +17,19 @@
       media="only screen and (min-width: 1024px)"
       href="widescreen.css"
     />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-MFT901EK2W"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-MFT901EK2W");
-    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Sebastian's Microverse Portfolio</title>
   </head>
 
   <body onload="main()">
     <div class="container">
-      <header>
+      <header id="header">
         <span class="logo rotate-logo"
-          ><a class="logo-text" title="logo" href="#">My Logo</a></span
+          ><a class="logo-text" title="logo" href="#">It's Seba</a></span
         >
         <nav class="navigation hidden-on-small">
           <ul class="menu">
@@ -222,7 +212,7 @@
             alt="Photo of the main page of project 3"
           />
           <div class="big-screen">
-            <h2 class="work-title hidden-on-big">Tonic</h2>
+            <h2 class="work-title hidden-on-big">Facebook 360</h2>
             <h2 class="work-title hidden-on-small left">Facebook 360</h2>
             <div class="details">
               <span class="item type hidden-on-big">CANOPY</span>
@@ -277,7 +267,7 @@
             alt="Photo of the main page of project 4"
           />
           <div class="big-screen">
-            <h2 class="work-title hidden-on-big">Multi-Post Stories</h2>
+            <h2 class="work-title hidden-on-big">Uber Navigation</h2>
             <h2 class="work-title hidden-on-small left">Uber Navigation</h2>
             <div class="details">
               <span class="item type hidden-on-big">CANOPY</span>
@@ -393,7 +383,7 @@
                           src="img/css.png"
                           alt="CSS3 logo"
                       /></a>
-                      <span class="lang-name">CSS 3</span>
+                      <span class="lang-name">CSS</span>
                     </div>
                   </div>
                 </li>
@@ -434,7 +424,7 @@
               >
                 <label for="name"
                   ><span aria-hidden="false" class="label-text aria-h"
-                    >Please enter your name</span
+                    >Please, enter your name..</span
                   ><span aria-hidden="false" class="red aria-h">*</span>
                   <input
                     class="form-field"
@@ -448,7 +438,7 @@
                 </label>
                 <label class="label-text" for="email"
                   ><span aria-hidden="false" class="aria-h"
-                    >Please enter your email</span
+                    >Please, enter your email..</span
                   ><span aria-hidden="false" class="red aria-h">*</span>
                   <input
                     class="form-field"
@@ -461,7 +451,7 @@
                 </label>
                 <label id="last" class="label-text" for="msg"
                   ><span aria-hidden="false" class="aria-h"
-                    >Please write your message</span
+                    >Please, write your message..</span
                   ><span aria-hidden="false" class="red aria-h">*</span>
                   <textarea
                     class="form-field"
