@@ -74,11 +74,12 @@ header {
   bottom: 0;
   background-color: rgba(96, 112, 255, 0.836);
   backdrop-filter: blur(6px);
-  transition: 0.8s linear;
+  transition: all 0.5s ease;
 }
 
 .hamburger-menu .menu {
   margin-top: 10vw;
+  transition: all 0.5s ease;
 }
 
 .hamburger-menu .menu .menu-item a {
@@ -113,7 +114,7 @@ header {
   color: #fff;
   font-size: 35px;
   border: none;
-  transition: 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .mob-menu-line {
@@ -124,6 +125,7 @@ header {
 
 .hidden-on-small {
   display: none;
+  transition: 0.5s ease;
 }
 
 .headline {
@@ -346,7 +348,8 @@ button[disabled] {
 }
 
 footer {
-  background-color: #fff;
+  background-color: white;
+  /* box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .ftr-div {
@@ -716,6 +719,7 @@ button[disabled] {
   align-items: center;
   z-index: 5;
   flex-direction: column;
+  transition: all 0.5s ease;
 }
 
 .nav-hamburger .line {
