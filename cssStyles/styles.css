@@ -27,7 +27,8 @@ header {
   padding: 1.5rem;
   display: flex;
   justify-content: space-between;
-  height: 11vh;
+  align-items: center;
+  height: 8vh;
   background-color: #fff;
   position: fixed;
   width: 100%;
