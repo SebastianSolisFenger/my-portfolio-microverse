@@ -250,6 +250,10 @@
     transform: scale(1.1);
   }
 
+  .works {
+    margin-top: 44px;
+  }
+
   /* Popup window */
 
   .popup {
@@ -273,7 +277,7 @@
   }
 
   #popup-text {
-    width: 70%;
+    width: 95%;
   }
 
   .popup-skills {
