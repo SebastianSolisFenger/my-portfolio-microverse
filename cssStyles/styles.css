@@ -96,6 +96,21 @@ header {
   display: flex;
   align-items: center;
   color: #253858;
+  position: absolute;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #344563;
 }
 
 .hamburger-menu .menu .menu-item a {
@@ -111,9 +126,11 @@ header {
   margin-bottom: 5vw;
   transition: transform 0.4s ease-in-out;
 }
+
 .hamburger-menu .menu .menu-item:hover {
   transform: scale(1.1);
 }
+
 .close-item {
   display: none;
 }
@@ -365,7 +382,6 @@ button[disabled] {
 
 footer {
   background-color: white;
-  /* box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .ftr-div {
@@ -638,47 +654,6 @@ button[disabled] {
   z-index: 2;
 }
 
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 32px;
-  align-items: center;
-  width: 259px;
-  height: 40px;
-  margin-right: 140px;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  height: 20px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #344563;
-}
-
-.nav-bar .header-logo .header-logo-link {
-  position: absolute;
-  text-decoration: none;
-  width: 150px;
-  height: 45px;
-  top: calc(50% - 40px / 2);
-  left: 132px;
-  padding: 8px 5px;
-  font-weight: bold;
-  margin-left: 24px;
-  text-align: center;
-  border-radius: 80%;
-  animation: logoRotation 2s linear;
-  animation-iteration-count: 1;
-}
-
 /* @keyframes logoRotation {
   from {
     transform: rotate(0deg);
@@ -698,28 +673,26 @@ button[disabled] {
   font-size: 18px;
 }
 
+.nav-bar .header-logo .header-logo-link {
+  position: absolute;
+  text-decoration: none;
+  width: 150px;
+  height: 45px;
+  top: calc(50% - 40px / 2);
+  left: 132px;
+  padding: 8px 5px;
+  font-weight: bold;
+  margin-left: 24px;
+  text-align: center;
+  border-radius: 80%;
+  animation: logoRotation 2s linear;
+  animation-iteration-count: 1;
+}
+
 .nav-bar .header-logo .header-logo-link:hover {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-}
-
-.nav-hamburger {
-  padding: 2px 2px;
-  position: absolute;
-  width: 40px;
-  height: 24px;
-  top: 20px;
-  border-radius: 8px;
-  right: 35px;
-  border-style: none;
-  margin-right: 12px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 5;
-  flex-direction: column;
-  transition: all 0.5s ease;
 }
 
 .nav-hamburger .line {
@@ -734,16 +707,7 @@ button[disabled] {
   cursor: pointer;
 }
 
-.nav-bar .header-logo .header-logo-link {
-  left: 12px;
-  top: 20px;
-}
-
 .circle-menu-pic {
-  position: absolute;
-}
-
-.submenuItems a {
   position: absolute;
 }
 
@@ -771,6 +735,10 @@ button[disabled] {
 }
 
 .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin-right: 140px;
   flex-direction: column;
   justify-content: center;
   width: 100vh;
@@ -778,7 +746,6 @@ button[disabled] {
   background-color: rgba(96, 112, 255, 0.9);
   margin-top: -1900px;
   transition: all 0.5s ease;
-  display: flex;
   align-items: flex-start;
   position: relative;
   backdrop-filter: blur(6px);
@@ -791,15 +758,6 @@ button[disabled] {
   margin-bottom: -80px;
   margin-left: -10px;
   opacity: 1;
-}
-
-.nav-links li a {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: white;
 }
 
 .nav-links #first {
@@ -838,12 +796,21 @@ button[disabled] {
 }
 
 .nav-hamburger {
-  display: flex;
+  padding: 2px 2px;
+  position: absolute;
+  width: 40px;
+  height: 24px;
+  top: 20px;
+  border-radius: 8px;
+  right: 35px;
+  border-style: none;
+  margin-right: 12px;
+  display: none;
+  justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 5;
   flex-direction: column;
-  justify-content: space-between;
-  top: 30px;
+  transition: all 0.5s ease;
 }
 
 .active .bar:nth-child(2) {

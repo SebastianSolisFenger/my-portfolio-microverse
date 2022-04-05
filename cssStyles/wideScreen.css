@@ -88,11 +88,6 @@
     line-height: 28px;
   }
 
-  .works {
-    max-width: 88%;
-    margin: 0 auto;
-  }
-
   .card-work {
     display: flex;
     flex-direction: row;
@@ -251,6 +246,8 @@
   }
 
   .works {
+    max-width: 88%;
+    margin: 0 auto;
     margin-top: 44px;
   }
 
