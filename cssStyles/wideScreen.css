@@ -32,7 +32,7 @@
   .headline {
     display: flex;
     align-items: center;
-    background-image: url(img/Header\ bg.svg);
+    background-image: url(../img/Header\ bg.svg);
     background-size: 98% 71%;
     background-position: 1.95% 40%;
     height: 100vh;
@@ -210,7 +210,7 @@
     background-color: #6070ff;
     border-top-left-radius: 128px;
     padding-bottom: 8px;
-    background-image: url("img/contact\ form\ background\ shapes.svg");
+    background-image: url("../img/contact\ form\ background\ shapes.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
