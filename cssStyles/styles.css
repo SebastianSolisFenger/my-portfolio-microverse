@@ -231,7 +231,7 @@ h1 {
 
 p {
   color: var(--neutral-color);
-  width: 30rem;
+  width: 95%;
   margin-top: 1.2rem;
   font-family: var(--font-sans);
   font-style: normal;
@@ -416,21 +416,6 @@ p {
   font-size: 1.7rem;
 }
 
-.list-skills {
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
-  align-items: center;
-  border-bottom: 1px solid rgb(105, 102, 102);
-}
-
-.title-arrow {
-  display: flex;
-  width: 75%;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .works__action:hover {
   color: white;
   background-color: var(--primary-color);
@@ -494,7 +479,11 @@ p {
 }
 
 .about-myself .about-myself__menu {
-  width: 80%;
+  width: 90%;
+}
+
+.about-myself__block {
+  width: 90%;
 }
 
 .about-myself .about-myself__menu .about-myself__ul {
@@ -519,6 +508,21 @@ p {
   font-size: 20px;
   font-weight: 500;
   padding: 2rem;
+}
+
+.list-skills {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid rgb(105, 102, 102);
+}
+
+.title-arrow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .form-container {
@@ -945,6 +949,21 @@ p {
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 2.4rem;
+  }
+
+  .list-skills {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-items: center;
+    border-bottom: 1px solid rgb(105, 102, 102);
+  }
+
+  .title-arrow {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .form-container {
