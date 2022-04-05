@@ -692,6 +692,8 @@ p {
   align-items: center;
 }
 
+/* hide scrollbar but allow scrolling */
+
 .modal-card {
   background-color: #fff;
   width: 80%;
@@ -699,10 +701,6 @@ p {
   overflow: auto;
   padding: 2rem;
   border-radius: 10px;
-}
-
-/* hide scrollbar but allow scrolling */
-.modal-card {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
@@ -898,7 +896,6 @@ p {
 
   .works__left-block {
     width: 100%;
-    /* padding-left: 4rem; */
     padding-top: 2rem;
   }
 
