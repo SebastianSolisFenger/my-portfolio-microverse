@@ -36,10 +36,12 @@ body {
   justify-content: flex-start;
   align-items: center;
   overflow-x: hidden;
+  transition: all 0.5s ease-out;
 }
 
 .overflow-hidden {
   overflow: hidden;
+  transition: all 0.3s ease-out;
 }
 
 .btn-transition {
@@ -106,6 +108,7 @@ header .nav__button {
   background-color: white;
   border-style: none;
   text-decoration: none;
+  border-radius: 40px;
 }
 
 header .nav__button i {
@@ -130,6 +133,7 @@ header .nav__button[disabled] {
 
 header .desktop-menu-container {
   display: none;
+  transition: all 0.5s ease-out;
 }
 
 .menu-warp {
@@ -151,6 +155,7 @@ header .desktop-menu-container {
   height: 100%;
   z-index: 10;
   backdrop-filter: blur(0.5rem);
+  transition: all 0.5s ease;
 }
 
 .close-button {
@@ -158,7 +163,7 @@ header .desktop-menu-container {
   color: var(--white-color);
   background: none;
   border: none;
-  font-size: 3rem;
+  font-size: 4rem;
   cursor: pointer;
   outline: inherit;
   display: flex;
@@ -171,11 +176,13 @@ header .desktop-menu-container {
 .mobile-menu-ul {
   margin-top: 8rem;
   margin-left: 4rem;
+  transition: all 0.5s ease;
 }
 
 .mobile-menu-ul li {
   list-style: none;
   margin-bottom: 1.5rem;
+  transition: all 0.5s ease-out;
 }
 
 .mobile-menu-ul a {
@@ -189,6 +196,7 @@ header .desktop-menu-container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  transition: all 0.5s ease-out;
 }
 
 main {
@@ -212,7 +220,7 @@ main .headline {
   justify-content: flex-start;
   align-items: flex-start;
   border-bottom-left-radius: 80px 80px;
-  padding-left: 4rem;
+  padding-left: 3.5rem;
   padding-bottom: 18rem;
   z-index: 1;
   box-shadow: 12px 12px 12px 11px rgba(0, 0, 0, 0.2);
@@ -262,6 +270,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .headline__social-media a {
@@ -377,6 +386,8 @@ p {
   display: flex;
   list-style-type: none;
   margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 /* about myself styles */
@@ -405,11 +416,16 @@ p {
 }
 
 .works__action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--button-color);
   text-decoration: none;
   border: 1px solid var(--button-color);
   border-radius: 0.4rem;
-  padding: 1rem 1rem;
+  padding: 8px, 12px, 8px, 12px;
+  height: 40px;
+  width: 142px;
   font-family: var(--font-sans);
   font-style: normal;
   font-weight: 500;
@@ -988,6 +1004,7 @@ p {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    align-items: flex-start;
   }
 
   .modal__primary-par {
