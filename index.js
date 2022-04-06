@@ -2,40 +2,40 @@
 // <--------------------------MOBILE-MENU-------------------------->
 // *************************************************************************************************
 
-const menu = document.querySelector("#menu-container");
-const closeButton = document.querySelector(".close-button");
-const hamburguer = document.querySelector("#hamburguer-button");
-const body = document.querySelector("body");
-const anchors = document.querySelectorAll(".mobile-menu-ul li");
+const menu = document.querySelector('#menu-container');
+const closeButton = document.querySelector('.close-button');
+const hamburguer = document.querySelector('#hamburguer-button');
+const body = document.querySelector('body');
+const anchors = document.querySelectorAll('.mobile-menu-ul li');
 
 function openMenu() {
-  menu.classList.add("visible");
-  body.classList.add("overflow-hidden");
+  menu.classList.add('visible');
+  body.classList.add('overflow-hidden');
 }
 
 function closeMenu() {
-  menu.classList.remove("visible");
-  body.classList.remove("overflow-hidden");
+  menu.classList.remove('visible');
+  body.classList.remove('overflow-hidden');
 }
 
-hamburguer.addEventListener("click", openMenu);
-closeButton.addEventListener("click", closeMenu);
+hamburguer.addEventListener('click', openMenu);
+closeButton.addEventListener('click', closeMenu);
 anchors.forEach((link) => {
-  link.addEventListener("click", closeMenu);
+  link.addEventListener('click', closeMenu);
 });
 
 //* **************
 // sticky menu
 //* **************
 
-const header = document.getElementById("header");
+const header = document.getElementById('header');
 const sticky = header.offsetTop;
 
 function stickMenu() {
   if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+    header.classList.add('sticky');
   } else {
-    header.classList.remove("sticky");
+    header.classList.remove('sticky');
   }
 }
 
@@ -49,52 +49,52 @@ window.onscroll = () => {
 
 const dataProjects = [
   {
-    name: "Tonic",
+    name: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionPopup:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?",
-    image: "./img/snapshot-Portfolio1.png",
-    technologies: ["html", "css", "javaScript"],
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+    image: './img/snapshot-Portfolio1.png',
+    technologies: ['html', 'css', 'javaScript'],
     liveVersion:
-      "https://sebastiansolisfenger.github.io/my-portfolio-microverse/",
-    source: "https://github.com/SebastianSolisFenger/my-portfolio-microverse",
+      'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
+    source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
   },
   {
-    name: "Multi-Post Stories",
+    name: 'Multi-Post Stories',
     description:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     descriptionPopup:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?",
-    image: "./img/snapshot-Portfolio2.png",
-    technologies: ["html", "Ruby on rails", "css", "javaScript"],
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+    image: './img/snapshot-Portfolio2.png',
+    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     liveVersion:
-      "https://sebastiansolisfenger.github.io/my-portfolio-microverse/",
-    source: "https://github.com/SebastianSolisFenger/my-portfolio-microverse",
+      'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
+    source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
   },
   {
-    name: "Facebook 360",
+    name: 'Facebook 360',
     description:
-      "Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+      'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     descriptionPopup:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquedoloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?",
-    image: "./img/snapshot-Portfolio3.png",
-    technologies: ["html", "Ruby on rails", "css", "javaScript"],
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquedoloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+    image: './img/snapshot-Portfolio3.png',
+    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     liveVersion:
-      "https://sebastiansolisfenger.github.io/my-portfolio-microverse/",
-    source: "https://github.com/SebastianSolisFenger/my-portfolio-microverse",
+      'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
+    source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
   },
   {
-    name: "Uber Navigation",
+    name: 'Uber Navigation',
     description:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     descriptionPopup:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod  nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquenesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?",
-    image: "./img/snapshot-Portfolio4.png",
-    technologies: ["html", "Ruby on rails", "css", "javaScript"],
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod  nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquenesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+    image: './img/snapshot-Portfolio4.png',
+    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     liveVersion:
-      "https://sebastiansolisfenger.github.io/my-portfolio-microverse/",
-    source: "https://github.com/SebastianSolisFenger/my-portfolio-microverse",
+      'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
+    source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
   },
 ];
 
@@ -126,16 +126,16 @@ function createCard(el) {
 }
 
 const myProjects = dataProjects.map((el, index) => {
-  const article = document.createElement("article");
-  article.className = "works__card";
+  const article = document.createElement('article');
+  article.className = 'works__card';
   if (index % 2 === 1) {
-    article.classList.add("card2");
+    article.classList.add('card2');
   }
   article.innerHTML = createCard(el);
   return article;
 });
 
-const worksSection = document.getElementById("works");
+const worksSection = document.getElementById('works');
 
 for (let i = 0; i < myProjects.length; i += 1) {
   worksSection.appendChild(myProjects[i]);
@@ -187,28 +187,28 @@ function createModal(el) {
 `;
 }
 
-const modalBtn = document.querySelectorAll("#showModal");
-const modalSection = document.getElementById("modal-container");
+const modalBtn = document.querySelectorAll('#showModal');
+const modalSection = document.getElementById('modal-container');
 
 function openModal() {
-  modalSection.classList.add("show-modal");
-  body.classList.add("overflow-hidden");
+  modalSection.classList.add('show-modal');
+  body.classList.add('overflow-hidden');
 }
 
 function closeModal() {
-  modalSection.classList.remove("show-modal");
-  body.classList.remove("overflow-hidden");
-  modalSection.innerHTML = "";
+  modalSection.classList.remove('show-modal');
+  body.classList.remove('overflow-hidden');
+  modalSection.innerHTML = '';
 }
 
 modalBtn.forEach((el, index) => {
-  el.addEventListener("click", () => {
+  el.addEventListener('click', () => {
     openModal();
-    const modalArticle = document.createElement("article");
-    modalArticle.className = "modal-card";
+    const modalArticle = document.createElement('article');
+    modalArticle.className = 'modal-card';
     modalArticle.innerHTML = createModal(dataProjects[index]);
     modalSection.appendChild(modalArticle);
-    const closeModalBtn = document.querySelector("#close-button-2");
-    closeModalBtn.addEventListener("click", closeModal);
+    const closeModalBtn = document.querySelector('#close-button-2');
+    closeModalBtn.addEventListener('click', closeModal);
   });
 });
