@@ -25,3 +25,14 @@ function deleteErrorMsg() {
   errorMsgContainer.classList.remove("showError");
   errorMsgContainer.innerHTML = "";
 }
+
+form.addEventListener('submit', (event) => {
+  const emailValue = emailInput.value;
+
+  if (!isValidEmail(emailValue)) {
+    event.preventDefault();
+    displayError();
+  } else {
+    deleteErrorMsg();
+  }
+});
