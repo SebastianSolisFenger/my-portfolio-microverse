@@ -53,9 +53,9 @@ const dataProjects = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionPopup:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaNam quod nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
     image: './img/snapshot-Portfolio1.png',
-    technologies: ['html', 'css', 'javaScript'],
+    technologies: ['html', 'css', 'javaScript', 'Bootstraps', 'Github', 'Ruby'],
     liveVersion:
       'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
     source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
@@ -65,9 +65,17 @@ const dataProjects = [
     description:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     descriptionPopup:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaNam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremque doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
     image: './img/snapshot-Portfolio2.png',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    technologies: [
+      'html',
+      'Ruby on rails',
+      'css',
+      'javaScript',
+      'Bootstraps',
+      'Github',
+      'Ruby',
+    ],
     liveVersion:
       'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
     source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
@@ -77,9 +85,17 @@ const dataProjects = [
     description:
       'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     descriptionPopup:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquedoloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaNam quod nesciunt nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquedoloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
     image: './img/snapshot-Portfolio3.png',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    technologies: [
+      'html',
+      'Ruby on rails',
+      'css',
+      'javaScript',
+      'Bootstraps',
+      'Github',
+      'Ruby',
+    ],
     liveVersion:
       'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
     source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
@@ -89,9 +105,17 @@ const dataProjects = [
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     descriptionPopup:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quod  nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquenesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaNam quod  nesciunt doloremque nesciunt doloremque nesciunt doloremque nesciunt doloremquenesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
     image: './img/snapshot-Portfolio4.png',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    technologies: [
+      'html',
+      'Ruby on rails',
+      'css',
+      'javaScript',
+      'Bootstraps',
+      'Github',
+      'Ruby',
+    ],
     liveVersion:
       'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
     source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
@@ -170,6 +194,8 @@ function createModal(el) {
             <li>${el.technologies[1]}</li>
             <li>${el.technologies[2]}</li>
             <li>${el.technologies[3]}</li>
+            <li>${el.technologies[4]}</li>
+            <li>${el.technologies[5]}</li>
           </ul>
           <div class="modal-buttons">
             <a href="${el.liveVersion}" class="btn-transition works__action modal-btn">
