@@ -644,7 +644,7 @@ p {
 }
 
 ::placeholder {
-  color: #b3bac5;
+  color: #131822;
   font-family: var(--font-sans);
   font-weight: 400;
   font-size: 1.5rem;
@@ -669,6 +669,8 @@ p {
 
 .errorMsg {
   color: #f00;
+  width: 80%;
+  border: 2.5px solid red;
   background-color: #fff;
   border-radius: 6px;
   font-size: 1.5rem;
