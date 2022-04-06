@@ -603,7 +603,7 @@ p {
   margin-bottom: 1.4rem;
   font-size: 17px;
   line-height: 20px;
-  color: #172b4d;
+  color: #09111f;
 }
 
 .input input {
@@ -615,6 +615,7 @@ p {
   font-family: var(--font-sans);
   font-weight: 400;
   font-size: 1.6rem;
+  color: #09111f;
 }
 
 .input textarea {
@@ -626,6 +627,7 @@ p {
   padding: 1rem;
   font-family: var(--font-sans);
   font-weight: 400;
+  color: #09111f;
 }
 
 .form .contact-button {
