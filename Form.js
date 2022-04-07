@@ -58,3 +58,54 @@ window.addEventListener('load', () => {
   emailInput.value = formData.email;
   messageInput.value = formData.msg;
 });
+
+// // *********************************************************************************************
+// // <--------------------------FORM-SECTION-VAR-------------------------->
+// // **********************************************************************************************
+// const emailErrorMessage = 'Please enter email address in small letters.';
+// // const nameInput = document.querySelector("#name");
+// const contactForm = document.querySelector('.form');
+// const emailContainer = document.querySelector('.email-container');
+// const emailInput = document.getElementById('#email');
+// const errorMessageContainer = document.querySelector('#errorMsg');
+// const formElement = document.querySelectorAll('textarea, input');
+// let formData = { name: '', email: '', message: '' };
+
+// // *****************************************************************************************
+// // <--------------------------FUNCTIONS-------------------------->
+// // ************************************************************************************
+// if (localStorage.getItem('formdata') !== null) {
+//   formData = JSON.parse(localStorage.getItem('formdata'));
+// }
+
+// const validateEmail = () => {
+//   const lowercaseEmail = emailInput.value.toLowerCase();
+//   if (lowercaseEmail !== emailInput.value) {
+//     emailContainer.classList.add('showError');
+//     emailInput.focus();
+//     errorMessageContainer.textContent = emailErrorMessage;
+//     return false;
+//   }
+//   emailContainer.classList.remove('showError');
+//   return true;
+// };
+
+// contactForm.addEventListener('submit', (event) => {
+//   if (!validateEmail()) {
+//     event.preventDefault();
+//   } else {
+//     localStorage.removeItem('formdata');
+//   }
+// });
+
+// // **************************************************************************************
+// // <--------------------------LOCAL-STORAGE-------------------------->
+// // **************************************************************************************
+
+// formElement.forEach((formItem) => {
+//   formItem.value = formData[formItem.name];
+//   formItem.addEventListener('input', (e) => {
+//     formData[e.target.name] = e.target.value;
+//     localStorage.setItem('formdata', JSON.stringify(formData));
+//   });
+// });
