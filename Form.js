@@ -56,4 +56,7 @@ emailInput.addEventListener("change", saveDataLocal);
 messageInput.addEventListener("change", saveDataLocal);
 window.addEventListener("load", () => {
   const formData = JSON.parse(localStorage.getItem("formData"));
+  nameInput.value = formData.name;
+  emailInput.value = formData.email;
+  messageInput.value = formData.msg;
 });
