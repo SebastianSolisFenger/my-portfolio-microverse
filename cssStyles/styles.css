@@ -168,7 +168,8 @@ header .desktop-menu-container {
   outline: inherit;
   display: flex;
   align-content: flex-end;
-  margin-right: 1rem;
+  position: absolute;
+  right: 50px;
   margin-top: 3rem;
   margin-left: 12rem;
 }
